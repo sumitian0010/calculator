@@ -1,0 +1,19 @@
+h1{
+    font-size: 30px;
+    
+}
+body{
+    color: blueviolet;
+    background-color: aqua;
+}
+div{
+    background-color: beige;
+    position: absolute;
+    align-self: center;
+    margin-top: 200px;
+    margin-left: 200px;
+    border: 3px solid black;
+    border-radius: 20%;
+    padding: 20px;
+}
+

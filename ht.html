@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cs.css">
+    <script>
+        function add(){
+           var  a=parseInt(document.getElementById("y1").value);
+           var b=parseInt(document.getElementById("y2").value);
+           var c=a+b;
+           document.write("addtion of given number is"+ c);
+
+        }
+        
+        function sub(){
+           var  a=parseInt(document.getElementById("y1").value);
+           var b=parseInt(document.getElementById("y2").value);
+           var c=a-b;
+           document.write("subtraction of given number is"+ c);
+
+        }
+
+        function mul(){
+           var  a=parseInt(document.getElementById("y1").value);
+           var b=parseInt(document.getElementById("y2").value);
+           var c=a*b;
+           document.write("multiplication of given number is"+ c);
+
+        }
+
+        function div(){
+           var  a=parseInt(document.getElementById("y1").value);
+           var b=parseInt(document.getElementById("y2").value);
+           var c=a/b;
+           document.write("division of given number is"+ c);
+
+        }
+        
+        
+    </script>
+</head>
+<body>
+    <div>
+    <h1>Basic Calculator</h1>
+   <form action="">
+    <input type="number" id="y1" name="num1" placeholder="Enter First Number"><br><br>
+    <input type="number" id="y2" name="num2" placeholder="Enter Second Number"><br><br>
+    <button type="submit" onclick="add()">Addtion</button>
+    <button type="submit" onclick="sub()">substraction</button>
+    <br>
+    <button type="submit" onclick="mul()">multiplication</button>
+    <button type="submit" onclick="div()">divition</button>
+   </form>
+    </div>
+</body>
+</html>
